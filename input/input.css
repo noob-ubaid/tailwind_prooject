@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .cart{
+        @apply bg-white hover:bg-black transition-all text-black hover:text-white text-base border hover:border-none scale-105 px-2 py-1 border-red-600 rounded-xl;
+    }
+}
